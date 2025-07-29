@@ -21,4 +21,5 @@ circuit:
 
 
 output:
-e" /><img width="528" height="307" alt="Image" src="https://github.com/user-attachments/assets/46cab9ba-1372-4616-8b06-0d26b392c69
+
+<img width="528" height="307" alt="Image" src="https://github.com/user-attachments/assets/46cab9ba-1372-4616-8b06-0d26b392c69e" />
