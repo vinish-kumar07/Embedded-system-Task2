@@ -1,0 +1,25 @@
+int serial_bluetooth;
+int led=13;
+void setup()
+{
+  Serial.begin(9600);
+  pinMode(LED_BUILTIN, OUTPUT);
+}
+
+void loop()
+{
+  if(Serial.available()>0)
+  {
+ serial_bluetooth=Serial.read();
+    if(serial_bluetooth=='1')
+    {
+      digitalWrite(led,HIGH);
+      Serial.println("led on");
+    }
+    if(serial_bluetooth=='0')
+    {
+      digitalWrite(led,LOW);
+      Serial.println("led off");
+    }
+  }
+}
